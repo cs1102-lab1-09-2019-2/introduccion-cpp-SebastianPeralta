@@ -1,4 +1,5 @@
-
+#include <iostream>
+#include <assert.h>
 bool esPalindromo(int n) {
     bool palindromo = true;
     std::string s = std::to_string(n);
@@ -13,7 +14,6 @@ bool esPalindromo(int n) {
 }
 
 int main() {
-
     if (esPalindromo(12321))
         std::cout<<"Es Palindromo\n";
     else
